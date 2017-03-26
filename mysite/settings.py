@@ -25,7 +25,7 @@ SECRET_KEY = 'h*u08aq)pofc@0fb!ni*wvlshr^6u0c679^*4^r^^ug+m#vvsg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['happython.pythonanywhere.com']
 
 
 # Application definition
