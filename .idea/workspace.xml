@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d8e85c9-39e9-4830-805c-1e47200b113a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/conf/locale/en/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/conf/locale/ka/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/conf/locale/te/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/admin/locale/cy/LC_MESSAGES/djangojs.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/admin/locale/hi/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/admin/locale/nb/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/admin/locale/udm/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/admin/templates/admin/auth/user/add_form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/admindocs/locale/es_CO/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/admindocs/locale/pt_BR/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/auth/locale/da/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/auth/locale/nl/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/contenttypes/locale/bg/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/contenttypes/locale/kn/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/flatpages/locale/ar/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/gis/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/gis/geos/mutable_list.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/gis/locale/io/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/gis/maps/google/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/humanize/locale/ga/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/humanize/locale/sw/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/postgres/locale/he/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/redirects/locale/en/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/redirects/locale/nn/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/sessions/locale/da/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/sessions/locale/nb/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/sites/locale/bs/LC_MESSAGES/django.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/contrib/sites/locale/ml/LC_MESSAGES/django.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/core/cache/backends/db.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/db/backends/oracle/base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/django/shortcuts.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/pip-9.0.1.dist-info/INSTALLER" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/pip/_vendor/requests/compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/pip/locations.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/setuptools/command/launcher manifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/setuptools/script (dev).tmpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myenv/lib/python3.4/site-packages/wheel/metadata.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/post_list.html" afterPath="$PROJECT_DIR$/blog/templates/blog/post_list.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -125,8 +88,8 @@
       <file leaf-file-name="post_list.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="187">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -403,7 +366,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="652" y="0" width="652" height="768" extended-state="1" />
+    <frame x="652" y="0" width="652" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25314465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -619,8 +582,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="187">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding />
         </state>
       </provider>
