@@ -3,14 +3,23 @@
 {% block content %}
     <div class="post">
         {% if user.is_authenticated %}
-            <a class="btn edit btn-default" href="{% url 'post_edit' pk=post.pk %}">
+            <a class="btn edit btn-primary" href="{% url 'post_edit' pk=post.pk %}">
                 <span class="glyphicon glyphicon-pencil"></span>
             </a>
-        {% endif %}
-        {% if post.published_date %}
-            <div class="date">
-                {{ post.published_date }}
-            </div>
+
+            <a class="btn btn-danger delete" href="{% url 'post_remove' pk=post.pk %}">
+                <span class="glyphicon glyphicon-remove"></span>
+            </a>
+
+            {% if post.published_date %}
+                <div class="date">
+                    {{ post.published_date }}
+                </div>
+            {% else %}
+                <a class="btn publish btn-info" href="{% url 'post_publish' pk=post.pk %}">
+                    Опубликовать пост
+                </a>
+            {% endif %}
         {% endif %}
 
         <h2>{{ post.title }}</h2>
