@@ -43,12 +43,21 @@ p {
     width: 90%;
 }
 
+.top-menu {
+
+}
+
 .date {
     float: right;
     color: #828282;
 }
 
 .save {
+    float: right;
+}
+
+.edit {
+    margin-left: 10px;
     float: right;
 }
 
