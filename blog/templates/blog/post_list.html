@@ -1,33 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Some primitive blog</title>
-</head>
-<body>
-    <style>
-        .post {
-            border: 1px solid #aaaaaa;
-            border-bottom: 4px solid gray;
-            box-shadow: 4px 4px 2px 2px #aaaaaa;
-            margin-bottom: 10px;
-            padding: 5px 10px;
-        }
-        h1 {
-            text-align: center;
-        }
-    </style>
+{% extends 'blog/base.html' %}
 
-    <div>
-        <h1><a href="">Romanov S.S.'s Simple Blog</a></h1>
-    </div>
-
+{% block content %}
     {% for post in posts %}
-    <div class="post">
-        <p>published: {{ post.published_date }}</p>
-        <h2><a href="">{{ post }}</a></h2>
-        <p>{{ post.text|linebreaksbr }}</p>
-    </div>
+        <div class="post">
+            <div class="date">
+                {{ post.published_date }}
+            </div>
+            <h1><a href="">{{ post.title }}</a></h1>
+            <p>{{ post.text|linebreaksbr }}</p>
+        </div>
     {% endfor %}
-</body>
-</html>
+{% endblock content %}
