@@ -81,3 +81,9 @@ p {
 .post h1 a, .post h1 a:visited {
     color: #000000;
 }
+
+.hi {
+    position: absolute;
+    top: -8px;
+    left: 0;
+}
