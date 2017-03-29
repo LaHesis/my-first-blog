@@ -3,7 +3,6 @@ h1 a, h2 a, h1, h2 {
     font-family: 'Marck Script', cursive;
 }
 
-
 h1 {
     text-align: center;
 }
@@ -52,9 +51,19 @@ p {
     color: #828282;
 }
 
-.save, .edit, .delete {
+/* these all are buttons */
+.save, .edit, .delete, .btn-cancel {
     margin-left: 10px;
     float: right;
+}
+
+a.btn {
+    padding: 5px 15px;
+    background-color: rgba(200, 0, 0, 0.2);
+}
+
+a.btn span {
+    vertical-align: top;
 }
 
 .publish {
@@ -65,13 +74,14 @@ p {
 
 .post-form textarea, .post-form input {
     width: 100%;
-    border-radius: 5px;
-    box-shadow: 0 0 1px 2px #cccccc;
-    border: 1px solid black;
     padding: 2px;
 }
 
-.top-menu, .top-menu:hover, .top-menu:visited {
+.post-form textarea {
+    min-height: 250px;
+}
+
+.top-menu, .top-menu:visited {
     color: #ffffff;
     float: right;
     font-size: 26pt;
@@ -84,6 +94,11 @@ p {
 
 .hi {
     position: absolute;
-    top: -8px;
+    top: 0;
     left: 0;
+    font-size: 1.8em;
+}
+
+.comment {
+    margin: 20px 0px 20px 20px;
 }
