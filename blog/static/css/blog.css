@@ -98,6 +98,12 @@ a.btn span {
     font-size: 1.8em;
 }
 
+.hi a {
+    color: white;
+}
+
+
+
 .comment {
     margin: 20px 0px 20px 20px;
     border-bottom: 1px dashed gray;
