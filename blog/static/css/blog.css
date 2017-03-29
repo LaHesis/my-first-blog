@@ -58,7 +58,6 @@ p {
 }
 
 a.btn {
-    padding: 5px 15px;
     background-color: rgba(200, 0, 0, 0.2);
 }
 
@@ -101,4 +100,14 @@ a.btn span {
 
 .comment {
     margin: 20px 0px 20px 20px;
+    border-bottom: 1px dashed gray;
+}
+
+.comments {
+    padding-bottom: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
 }

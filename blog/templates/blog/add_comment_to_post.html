@@ -1,11 +1,13 @@
 {% extends 'blog/post_detail.html' %}
 
-{% block comments %}
+{% block adding_comments %}
     <h3>Новый комментарий</h3>
     <form method="POST" class="post-form">
         {% csrf_token %}
         {{ form.as_p }}
         <button type="submit" class="save btn btn-default">Отправить</button>
     </form>
-    <button class="btn btn-default btn-cancel" href="{% url 'post_detail' pk=post.pk %}">Отменить</button>
+    <a class="btn btn-default btn-cancel" href="{% url 'post_detail' pk=post.pk %}">
+        Отменить
+    </a>
 {% endblock %}
