@@ -50,8 +50,13 @@
                     </a>
                 {% endif %}
             </div>
-            <strong>{{ comment.author }}</strong>
-            <p>{{ comment.text|linebreaks }}</p>
+            {% if comment.approved_comment or user.is_authenticated %}
+                <strong>{{ comment.author }}</strong>
+                <p>{{ comment.text|linebreaks }}</p>
+            {% elif not comment.approved_comment %}
+                <strong>Автор непроверенного комментария</strong>
+                <p>Непроверенный комментарий</p>
+            {% endif %}
         </div>
         {% empty %}
             <p>Здесь еще нет комментариев :(</p>
