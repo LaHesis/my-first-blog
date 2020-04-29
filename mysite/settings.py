@@ -25,7 +25,7 @@ SECRET_KEY = 'h*u08aq)pofc@0fb!ni*wvlshr^6u0c679^*4^r^^ug+m#vvsg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'happython.pythonanywhere.com', '127.0.0.1:8000']
+ALLOWED_HOSTS = ['127.0.0.1', 'serroan.pythonanywhere.com', '127.0.0.1:8000']
 
 
 # Application definition
@@ -123,3 +123,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # It will redirect a successful login to the top-level index
 LOGIN_REDIRECT_URL = '/'
+
+if not DEBUG:
+    MIDDLEWARE.insert(1, 'whitenoise.middleware.WhiteNoiseMiddleware')
+    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
